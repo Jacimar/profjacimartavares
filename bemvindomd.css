@@ -1,0 +1,83 @@
+/* ===========================================================
+   index.css
+   CSS PERSONALIZADO da página da disciplina.
+
+   Este arquivo é carregado DEPOIS do bootstrap.min.css, então as
+   regras daqui têm prioridade e "sobrescrevem" o que for preciso
+   ajustar (cores específicas, o card do QR Code, espaçamentos etc).
+   =========================================================== */
+
+body {
+  background-color: #ffffff;
+  color: #2b2b2b;
+}
+
+/* Título grande no topo da página (o "2026/1 - ...") */
+.page-title {
+  color: #6b6b6b;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+/* Bloco do logo: imagem + nome da instituição lado a lado */
+.logo-area img {
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+}
+
+.logo-area h2 {
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #1a1a1a;
+}
+
+.logo-area .subtitle {
+  color: #9a9a9a;
+  font-size: 1rem;
+}
+
+/* Card preto simulando o convite do grupo de WhatsApp com QR Code */
+.whatsapp-card {
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 12px;
+  width: 260px;
+  padding: 1.2rem;
+}
+
+.whatsapp-card img.qr-code {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 180px;
+}
+
+.whatsapp-card .small-note {
+  font-size: 0.72rem;
+  color: #b5b5b5;
+}
+
+.whatsapp-card .reset-link {
+  color: #4CAF50;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+/* Links azuis, iguais aos do print (cor padrão de link do Canvas) */
+a.content-link {
+  color: #0374B5;
+  text-decoration: underline;
+}
+
+ul.menu-list {
+  list-style: disc;
+  padding-left: 1.4rem;
+}
+
+ul.menu-list ul {
+  list-style: circle;
+  padding-left: 1.4rem;
+  margin-top: 0.3rem;
+}
