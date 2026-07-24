@@ -37,35 +37,19 @@ body {
   font-size: 1rem;
 }
 
-/* Card preto simulando o convite do grupo de WhatsApp com QR Code */
 .whatsapp-card {
-  background-color: #111111;
-  color: #ffffff;
   border-radius: 12px;
   width: 260px;
   padding: 1.2rem;
 }
 
 .whatsapp-card img.qr-code {
-  background-color: #ffffff;
   padding: 8px;
   border-radius: 6px;
   width: 100%;
   max-width: 180px;
 }
 
-.whatsapp-card .small-note {
-  font-size: 0.72rem;
-  color: #b5b5b5;
-}
-
-.whatsapp-card .reset-link {
-  color: #4CAF50;
-  font-size: 0.8rem;
-  text-decoration: none;
-}
-
-/* Links azuis, iguais aos do print (cor padrão de link do Canvas) */
 a.content-link {
   color: #0374B5;
   text-decoration: underline;
